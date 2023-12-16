@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    /* flex-start, left, center, flex-end, right, space-beetwen, space-around, space-evenly, */
+    align-items: baseline;
+
+    flex-direction: row;
+    /* row, row-reverse, column, column-reverse */
+    flex-wrap: wrap-reverse;
+    /* nowrap, wrap, wrap-reverse */
+    flex-flow: column wrap-reverse;
+    /* объеденяет */
+    align-content: space-between;
+    background-color: blueviolet;
+    padding: 1rem;
+    height: 600px;
+}
+
+.item {
+    padding: 1rem;
+    margin: 1rem;
+    background-color: cyan;
+}
+
+.item:nth-child(2) {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
