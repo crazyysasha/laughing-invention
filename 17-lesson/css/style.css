@@ -1,0 +1,37 @@
+.flex-container {
+    display: flex;
+    gap: 1rem;
+    justify-content: space-around;
+}
+
+.flex-container > div {
+    padding: 1rem;   
+}
+
+.flex-container > *:first-child {
+    background-color: blueviolet;
+}
+.flex-container > *:nth-child(2) {
+    background-color: aqua;
+}
+.flex-container > *:nth-child(3) {
+    background-color: brown;
+}
+.flex-container > *:nth-child(4) {
+    background-color: blue;
+}
+.flex-container > *:nth-child(5) {
+    background-color: aqua;
+}
+.flex-container > *:nth-child(6) {
+    background-color: brown;
+}
+.flex-container > *:nth-child(7) {
+    background-color: blue;
+}
+.flex-container > *:nth-child(8) {
+    background-color: aqua;
+}
+.flex-container > *:last-child {
+    background-color: blue;
+}
