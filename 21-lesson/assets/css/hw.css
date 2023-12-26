@@ -1,0 +1,36 @@
+.flex-container {
+    display: flex;
+    gap: 1rem;
+}
+.main {
+    background-color: blueviolet;
+    padding: 2rem;
+}
+.flex-col {
+    flex-direction: column;
+}
+.flex-item {
+    padding: 2rem;
+    background-color: orangered;
+}
+.item1 {
+    flex-grow: 1;
+}
+.item2 {
+    flex-grow: 9;
+}
+.item345 {
+    flex-grow: 1;
+}
+.item7-10, .item6 {
+    flex-grow: 1;
+}
+.item8 {
+    width: 90%;
+}
+.item9 {
+    width: 80%;
+}
+.item10 {
+    width: 70%;
+}
