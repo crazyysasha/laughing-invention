@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 32px;
+}
+
+.bg-red {
+    background-color: #B11114;
+}
+
+.logo, .nav-link {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+}
+.logo {
+    font-size: 36px;
+}
+
+.intro-sec {
+    background-color: #880002;
+    padding-top: 4.5rem;
+    padding-bottom: 7rem;
+}
+
+.intro-sec h1, .intro-sec p {
+    color: white;
+
+}
+
+.intro-sec h1 {
+    font-size: 80px;
+}
+.flex {
+    display: flex;
+}
+.container {
+    max-width: 1313px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jus-between {
+    justify-content: space-between;
+}
+
+.gap-2rem {
+    gap: 2rem;
+}
+.gap-4rem {
+    gap: 4rem;
+}
+.testimonials-sec {
+    background-color: #EE595C;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    flex-grow: 1;
+}
+
+.testimonial-card {
+    padding: 2rem;
+    background-color: #880002;
+    flex-grow: 1;
+    flex-basis: 33.3333334%;
+    color: white;
+    border-radius: 20px;
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+.page {
+    /* viewport height */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
