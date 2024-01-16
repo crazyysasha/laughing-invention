@@ -1,0 +1,45 @@
+
+.btn {
+    background-color: blueviolet;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    border: none;
+    color: white;
+    /* border: 1px solid transparent; */
+    /* transition: all 1s 1s cubic-bezier(.35,-1.01,.47,1.75), margin 2s 0s ease-in-out; */
+    /* transition-timing-function: cubic-bezier(.35,-1.01,.47,1.75); */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-delay: .5s;
+    transition-timing-function: cubic-bezier(.35,-1.01,.47,1.75);
+}
+
+.btn:hover {
+    background-color: chartreuse;
+    padding: 1rem 2rem;
+
+}
+
+.hovered:hover .btn{
+    margin-left: 20rem;
+}
+
+.absolute1, .absolute2 {
+    width: 20rem;
+    height: 10rem;
+    position: absolute;
+
+}
+
+.absolute1 {
+    background-color: brown;
+    top: 10rem;
+    z-index: 2;
+} 
+
+.absolute2 {
+    background-color: yellow;
+    top: 12rem;
+    left: 2rem;
+    z-index: -1;
+}
