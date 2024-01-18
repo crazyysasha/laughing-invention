@@ -1,0 +1,59 @@
+.block1 {
+    background: aquamarine;
+    background-image: url(../abstract-colorful-splash-3d-background-generative-ai-background_60438-2493.avif);
+    background-repeat: no-repeat;
+    /* auto auto, length length, contain, cover */
+    background-size: cover;
+    /* [ right, left, center] [top, bottom, center] */
+    background-position: 4rem;
+    background-origin: padding-box;
+    /* scroll, fixed, local */
+    background-attachment: scroll;
+    background-clip: content-box;
+    /* max-height: 400px; */
+    /* overflow: scroll; */
+    padding: 2rem;
+    border: 2rem dashed #0000006b;
+}
+
+.block2 {
+    background:  url(../abstract-uv-ultraviolet-light-composition_23-2149243965.avif) center no-repeat  fixed , url(../abstract-colorful-splash-3d-background-generative-ai-background_60438-2493.avif) center no-repeat;
+    background-size: auto, cover;
+    margin-bottom: 1rem;
+}
+
+.transformed {
+    background-color: blueviolet;
+    height: 100px;
+    width: 200px;
+    transform: translateX(200px) translateY(-100px) 
+    rotate(45deg) rotateY(-45deg) rotateX(45deg);
+}
+
+.transformed2 {
+    background-color: blue;
+    height: 200px;
+    width: 400px;
+    transform: translateY(200px) translateX(200px) 
+     scale(.8) scaleX(1.5) scaleY(1.5)
+     skew(-20deg, 10deg) ;
+}
+
+
+
+.beautiful-btn {
+    background-color: orangered;
+    padding: .5rem 2rem;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    transition: all .2s ease-in-out;
+}
+
+.beautiful-btn:hover {
+    transform: scale(1.1);
+}
+
+.beautiful-btn:active {
+    transform: scale(.9);
+}
