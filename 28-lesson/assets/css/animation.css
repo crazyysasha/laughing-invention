@@ -1,0 +1,55 @@
+.animated {
+    width: 20rem;
+    height: 10rem;
+    animation-name: bg;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+}
+
+
+@keyframes bg {
+    from, to {
+        /* background-color: blueviolet; */
+        /* background-image: linear-gradient(0deg, red, blueviolet); */
+        background-position: 0% 0%;
+    } 
+    50% {
+        transform: scale(1.2);
+        /* background-color: red; */
+        color: white;
+        background-position: 100% 100%;
+    }
+    /* to {
+        background-position: 0% 0%;
+    } */
+}
+
+
+
+.animated2 {
+    max-width: 20rem;
+    min-height: 10rem;
+    background-color: #ee7752;
+    animation-name: transforms;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 4;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    animation: transforms 2s ease-in 1s 2 alternate both;
+}
+
+
+
+@keyframes transforms {
+    from {
+        transform: translate(100px, 100px);
+    }
+    to {
+        transform: translate(1200px, 200px);
+    }
+}
