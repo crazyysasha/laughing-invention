@@ -45,9 +45,6 @@ body {
     }
 }
 
-.btn-heart {
-
-}
 .btn-heart svg {
     fill: black;
     transition: all 200ms ease-in-out;    
