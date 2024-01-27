@@ -1,0 +1,28 @@
+.animated-button {
+    max-width: max-content;
+    background-color: chartreuse;
+    font-size: 24px;
+    padding: 1rem 2rem;
+    color: white;
+    border-radius: .5rem;
+    animation: button 4s ease-in-out 0s infinite normal both;
+}
+
+
+@keyframes button {
+    from {
+        transform: translate(0,0);
+    }
+
+    20% {
+        transform: rotate(30deg);
+    }
+
+    60% {
+        transform:  rotate(0deg) translate(400px);
+    }
+
+    to {
+        transform:   translate(0px) rotate(-360deg);
+    }
+}
