@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+}
+
+.flex-item {
+    background-color: aquamarine;
+    padding: 2rem;
+}
+
+.print {
+    display: none;
+}
+@media print {
+    .print {
+        display: block;
+    } 
+}
+@media screen and (max-width: 784px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
+@media (orientation: portrait) {
+    body {
+        background-color: black;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: brown;
+    }
+}
