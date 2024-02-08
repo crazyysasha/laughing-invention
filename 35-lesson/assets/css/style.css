@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #010214;
+}
+
+header {
+    background: radial-gradient(98.87% 98.87% at 51.11% 1.13%, rgba(0, 0, 0, 0) 0%, #000000 45.31%, #6A01D3 76.56%, #8F00FF 86.46%, #C883FF 100%);
+
+    padding: 130px 90px;
+    max-width: 1300px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-title {
+    font-size: 50px;
+    color: white;
+    max-width: 920px;
+    text-wrap: balance;
+    text-align: center;
+    line-height: .85;
+}
+
+.header-description {
+    color: white;
+    max-width: 920px;
+    text-wrap: balance;
+    text-align: center;
+}
+
+.btn-attention {
+    /* background-color: rgba(123, 123, 123, 0.16); */
+    padding: 6px 10px;
+    color: white;
+    border-radius: 9999px;
+    border: 2px solid transparent;
+    /* background: #15161D padding-box, linear-gradient(90deg,  rgba(255, 222, 222, 1), rgba(246, 122, 122, 0.6354), rgba(233, 159, 174, 0.5084), rgba(212, 217, 255, 0.3073), rgba(220, 121, 255, 0.92)) border-box; */
+    /* background-color:  #15161D ; */
+    background-clip: padding-box, border-box;
+    background-image: linear-gradient(#15161D, #15161D), linear-gradient(90deg, rgba(255, 222, 222, 1), rgba(246, 122, 122, 1), rgba(233, 159, 174, 1), rgba(212, 217, 255, 1), rgba(220, 121, 255, 1));
+    background-origin: border-box;
+    /* -webkit-mask:  linear-gradient(#fff 0 0) padding-box, 
+    linear-gradient(#fff 0 0); */
+    transition: all 300ms ease-in-out;
+}
+
+
+.btn-call {
+    padding: 14px 60px;
+    color: #3D3D3D;
+    font-size: 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    transition: all 300ms ease-in-out;
+
+}
+
+.btn-call:hover {
+    background-color: #3D3D3D;
+    color: white;
+
+}
+
+button {
+    cursor: pointer;
+}
+
+.content {
+    color: transparent;
+    max-width: 600px;
+    text-wrap: balance;
+    text-align: center;
+    margin: 30px auto;
+    background-image: linear-gradient(#ffffff, rgba(255, 255, 255, 0.5));
+    background-clip: text;
+}
+
+main {
+    background: radial-gradient(100% 100% at 50% 100%, rgba(0, 0, 0, 0) 0%, #000000 45.31%, #6A01D3 76.56%, #8F00FF 86.46%, #C883FF 100%);
+    padding: 130px 90px;
+    max-width: 1300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sec-title {
+
+    font-size: 50px;
+    color: transparent;
+    background-image: linear-gradient(90deg, rgba(255,255,255, .5), rgba(255,255,255, 1));
+    background-clip: text;
+}
+
+.sec-description {
+    color: white;
+    max-width: 600px;
+    text-align: center;
+    text-wrap: balance;
+}
