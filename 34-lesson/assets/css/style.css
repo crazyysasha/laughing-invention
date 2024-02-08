@@ -1,5 +1,6 @@
 header {
-    border: #D6D9DD solid 1px;
+    border: transparent solid 10px;
+    border-image: repeating-linear-gradient(#ffff00, #00FFff) 10 round;
     border-radius: 1rem;
     max-width: 670px;
     display: flex;
