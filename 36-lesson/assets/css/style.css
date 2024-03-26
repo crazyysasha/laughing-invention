@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: darkslategray;
+}
+
+button {
+    background-color: white;
+    padding: 60px 70px;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    position: relative;
+}
+
+.blue {
+    background-color: #3968E2;
+    min-height: 80px;
+    min-width: 260px;
+    border-radius: 9999px;
+    transition: all 200ms ease-in-out;
+}
+
+
+
+
+.hidden-left,
+.hidden-right {
+    position: absolute;
+    inset: 0;
+
+}
+
+.hidden-left {
+    right: 50%;
+}
+
+.hidden-right {
+    left: 50%;
+}
+
+.hidden-left:active~.blue {
+    transform: rotate(-15deg) translateY(20px);
+}
+
+.hidden-right:active~.blue {
+    transform: rotate(15deg) translateY(20px);
+}

@@ -1,0 +1,32 @@
+
+.animated {
+    background-color: chartreuse;
+    border-radius: 8px;
+    padding: 6px 16px;
+    width: max-content;
+    animation: css 3s ease-in-out 0s infinite;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+@keyframes css {
+    0% {
+        transform: translate(0) rotate(720deg);
+    }
+    30% {
+        transform: translate(0) rotate(735deg);
+    }
+
+    60% {
+        transform: translate(400px) rotate(360deg);
+    }
+    100% {
+        transform: translate(0) rotate(-360deg);
+    }
+/*    
+    100% {
+        transform: rotate(-360deg);
+    } */
+}
